@@ -1,24 +1,30 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>iTunes Music Search</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <div class="container">
-    <header>
-      <h1>Really Awesome Music Site</h1>
-    </header>
-    <section class="player">
-      <audio class="music-player" controls="controls" src=""></audio>
-    </section>
-    <section class="search">
-      <form class="search-form">
+  <head>
+    <meta charset="utf-8">
+    <title>Awesome Music Site</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="heading">
+        <h1>Awesome Music Site</h1>
+        Music You are looking for:<input id='recipe' type="text" name="recipe" value="" maxlength="100" />
+          <br />
+        <input id='search' type="submit" value="Search" />
+        <p>Results from <a href="https://www.apple.com/itunes/">iTunes</a></p>
+      </div>
+      <section class="player">
         
-      </form>
-    </section>
-    <section class="results"></section>
-  </div>
-  <script src="main.js"></script>
-</body>
+      </section>
+      <div id="main">
+
+      </div>
+      <div id="footing">
+
+      </div>
+
+    </div>
+  </body>
+  <script src="./main.js"></script>
 </html>

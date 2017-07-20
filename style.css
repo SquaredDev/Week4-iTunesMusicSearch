@@ -1,0 +1,101 @@
+* {
+  font-family: impact;
+}
+
+#wrapper {
+    background-color: rgb(96, 185, 123);
+}
+
+#heading {
+  display: flex;
+  background-color: rgb(96, 185, 123);
+  justify-content: center;
+  flex-flow: column;
+  align-items: center;
+}
+
+#main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: rgb(208, 197, 181);
+}
+
+#footing {
+  background-color: rgb(96, 185, 123);
+}
+
+#recipe {}
+
+#ingred {}
+
+#search {}
+
+.boxes {
+  width: 200px;
+  margin: 30px;
+}
+
+.boxes p {
+  max-width: 190px;
+  background-color: rgb(197, 136, 60);
+  padding: 5px;
+  text-align: center;
+  margin-top: -3px;
+
+}
+
+.boxes a {
+  background-color: transparent;
+  font-weight: 900;
+  color: black;
+  text-decoration: none;
+}
+
+.pic {
+  width: 200px;
+  height: 200px;
+  background-image: url("http://img.recipepuppy.com/9.jpg");
+  background-size: 100% 100%;
+}
+
+.profilePic {
+  width: 100%;
+  height: 200px;
+}
+
+.rName {}
+
+h1 {}
+
+form {}
+
+input {
+background-color: rgb(208, 197, 181);
+width: 200px;
+}
+
+br {}
+
+p {}
+
+hr {
+  background-color: rgb(208, 197, 181);
+  width: 100%;
+}
+
+img {}
+
+a {}
+
+ul {
+}
+
+li {}
+
+footer {}
+
+audio {
+  max-width: 200px;
+  background-color: rgb(208, 197, 181);
+}
